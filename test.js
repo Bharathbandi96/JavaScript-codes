@@ -1,0 +1,1 @@
+Array.from({length: 5}, (v, i) => console.log(i));
