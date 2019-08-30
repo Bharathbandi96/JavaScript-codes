@@ -1,5 +1,3 @@
-const set = new Set(['foo', 'bar', 'baz', 'foo']);
-console.log(Array.from(set));
+import {test} from './test.js';
 
-
-Array.from(set,(_,a) => console.log(_));
+console.log(test());
