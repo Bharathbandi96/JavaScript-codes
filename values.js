@@ -12,12 +12,12 @@ const obj = new MyNum(5);
 
 console.log(obj.valueOf());
 
+
 const object1 = {
-   
    a : 34,
-   b : 'hello'
-   c : null,
-   d : true
+   2 : 'hello',
+   c : true,
+   5 : null
 }
 
 console.log(Object.values(object1));
