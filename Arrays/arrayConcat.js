@@ -33,5 +33,7 @@ const b = a.toString();
 console.log(Array.isArray(b));
 console.log(b);
 
-console.log(Array('hello'));
+//Array.isArray() method examples
+console.log(typeof(Array.prototype));
+console.log(Array.isArray(Array.prototype));
 }
