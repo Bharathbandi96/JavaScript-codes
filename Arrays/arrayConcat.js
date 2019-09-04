@@ -7,8 +7,14 @@ exports.arrayConcat = function f(){
 
 //creates an array of length equal to the number we pass
 const a = Array(10);
-console.log(a);
 console.log(Array.isArray(a));
+console.log(a);
+
+//Array() constructor works differently for different inputs
+console.log(Array(5));
+console.log(Array('hello'));
+console.log(Array('hello',5));
+console.log(Array(5,7));
 
 arr1 = Array.of('hello','i\'am', 21 , 'years', 'old');
 arr2 = Array.of(' i','was','born','on','21st dec');
@@ -27,4 +33,5 @@ const b = a.toString();
 console.log(Array.isArray(b));
 console.log(b);
 
+console.log(Array('hello'));
 }
