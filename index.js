@@ -5,6 +5,7 @@ import {propertyDescriptor} from './Objects/propertyDescriptors'
 import {values} from './Objects/values.js'
 import {arrayFrom} from './Arrays/arrayFrom.js'
 import {arrayConcat} from './Arrays/arrayConcat.js'
+import {arrayCopywithin} from './Arrays/arrayCopywithin.js'
 
 
 //console.log(test());
@@ -13,4 +14,5 @@ import {arrayConcat} from './Arrays/arrayConcat.js'
 //console.log(propertyDescriptor());
 //console.log(values());
 //console.log(arrayFrom());
-console.log(arrayConcat());
+//console.log(arrayConcat());
+console.log(arrayCopywithin());
