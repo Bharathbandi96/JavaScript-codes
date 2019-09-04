@@ -6,6 +6,7 @@ import {values} from './Objects/values.js'
 import {arrayFrom} from './Arrays/arrayFrom.js'
 import {arrayConcat} from './Arrays/arrayConcat.js'
 import {arrayCopywithin} from './Arrays/arrayCopywithin.js'
+import {arrayEntries} from './Arrays/arrayEntries.js'
 
 
 //console.log(test());
@@ -15,4 +16,5 @@ import {arrayCopywithin} from './Arrays/arrayCopywithin.js'
 //console.log(values());
 //console.log(arrayFrom());
 //console.log(arrayConcat());
-console.log(arrayCopywithin());
+//console.log(arrayCopywithin());
+console.log(arrayEntries());
