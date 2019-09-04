@@ -17,6 +17,6 @@ import {arrayEvery} from './Arrays/arrayEvery.js'
 //console.log(values());
 //console.log(arrayFrom());
 //console.log(arrayConcat());
-//console.log(arrayCopywithin());
+console.log(arrayCopywithin());
 //console.log(arrayEntries());
-console.log(arrayEvery());
+//console.log(arrayEvery());
