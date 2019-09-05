@@ -9,7 +9,7 @@ import {arrayCopywithin} from './Arrays/arrayCopywithin.js'
 import {arrayEntries} from './Arrays/arrayEntries.js'
 import {arrayEvery} from './Arrays/arrayEvery.js'
 import {arrayFilter} from './Arrays/arrayFilter.js'
-
+import {arrayFlat} from './Arrays/arrayFlat.js'
 
 //console.log(test());
 //console.log(entries());
@@ -21,4 +21,5 @@ import {arrayFilter} from './Arrays/arrayFilter.js'
 //console.log(arrayCopywithin());
 //console.log(arrayEntries());
 //console.log(arrayEvery());
-console.log(arrayFilter());
+//console.log(arrayFilter());
+console.log(arrayFlat());
