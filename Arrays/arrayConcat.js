@@ -5,7 +5,7 @@ exports.arrayConcat = function f(){
   console.log(Array.of(15));
   console.log(Array.of('hello','i\'am', 21 , 'years', 'old'));
 
-//creates an array of length equal to the number we pass
+//creates an array of length equal to the value we pass
 const a = Array(10);
 console.log(Array.isArray(a));
 console.log(a);

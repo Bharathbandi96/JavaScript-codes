@@ -8,6 +8,7 @@ import {arrayConcat} from './Arrays/arrayConcat.js'
 import {arrayCopywithin} from './Arrays/arrayCopywithin.js'
 import {arrayEntries} from './Arrays/arrayEntries.js'
 import {arrayEvery} from './Arrays/arrayEvery.js'
+import {arrayFilter} from './Arrays/arrayFilter.js'
 
 
 //console.log(test());
@@ -17,6 +18,7 @@ import {arrayEvery} from './Arrays/arrayEvery.js'
 //console.log(values());
 //console.log(arrayFrom());
 //console.log(arrayConcat());
-console.log(arrayCopywithin());
+//console.log(arrayCopywithin());
 //console.log(arrayEntries());
 //console.log(arrayEvery());
+console.log(arrayFilter());
