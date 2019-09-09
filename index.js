@@ -13,6 +13,7 @@ import {arrayFlat} from './Arrays/arrayFlat.js'
 import {arrayIncludes} from './Arrays/arrayIncludes.js'
 import {arrayJoin} from './Arrays/arrayJoin.js'
 import {arrayPushPop} from './Arrays/arrayPushPop.js'
+import {arrayReduce} from './Arrays/arrayReduce.js'
 
 //console.log(test());
 //console.log(entries());
@@ -28,4 +29,5 @@ import {arrayPushPop} from './Arrays/arrayPushPop.js'
 //console.log(arrayFlat());
 //console.log(arrayIncludes());
 //console.log(arrayJoin());
-console.log(arrayPushPop());
+//console.log(arrayPushPop());
+console.log(arrayReduce());
