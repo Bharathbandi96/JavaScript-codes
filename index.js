@@ -10,6 +10,7 @@ import {arrayEntries} from './Arrays/arrayEntries.js'
 import {arrayEvery} from './Arrays/arrayEvery.js'
 import {arrayFilter} from './Arrays/arrayFilter.js'
 import {arrayFlat} from './Arrays/arrayFlat.js'
+import {arrayIncludes} from './Arrays/arrayIncludes.js'
 
 //console.log(test());
 //console.log(entries());
@@ -22,4 +23,5 @@ import {arrayFlat} from './Arrays/arrayFlat.js'
 //console.log(arrayEntries());
 //console.log(arrayEvery());
 //console.log(arrayFilter());
-console.log(arrayFlat());
+//console.log(arrayFlat());
+console.log(arrayIncludes());
