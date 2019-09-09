@@ -14,6 +14,7 @@ import {arrayIncludes} from './Arrays/arrayIncludes.js'
 import {arrayJoin} from './Arrays/arrayJoin.js'
 import {arrayPushPop} from './Arrays/arrayPushPop.js'
 import {arrayReduce} from './Arrays/arrayReduce.js'
+import {arrayReverse} from './Arrays/arrayReverse.js'
 
 //console.log(test());
 //console.log(entries());
@@ -30,4 +31,5 @@ import {arrayReduce} from './Arrays/arrayReduce.js'
 //console.log(arrayIncludes());
 //console.log(arrayJoin());
 //console.log(arrayPushPop());
-console.log(arrayReduce());
+//console.log(arrayReduce());
+console.log(arrayReverse());
