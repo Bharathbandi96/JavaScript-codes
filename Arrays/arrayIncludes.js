@@ -24,4 +24,22 @@ console.log('');
   console.log(a.indexOf(40));
   console.log(a.indexOf(5));
   console.log(a.lastIndexOf(5));
+
+console.log("lastIndexof() " + -1*4)
+  var animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
+
+console.log(animals.lastIndexOf('Tiger',-1));
+console.log(animals.lastIndexOf('Tiger',-2));
+console.log(animals.lastIndexOf('Tiger',-3));
+console.log(animals.lastIndexOf('Tiger',-4));
+console.log(animals.lastIndexOf('Tiger',-5));
+console.log(animals.lastIndexOf('Tiger',-6));
+
+console.log("indexOf() " + -1*4)
+console.log(animals.indexOf('Tiger',-1));
+console.log(animals.indexOf('Tiger',-2));
+console.log(animals.indexOf('Tiger',-3));
+console.log(animals.indexOf('Tiger',-4));
+console.log(animals.indexOf('Tiger',-5));
+console.log(animals.indexOf('Tiger',-6));
 }
