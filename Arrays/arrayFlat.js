@@ -29,4 +29,15 @@ exports.arrayFlat = function f(){
   const arr4 = ["this is test example","to test working of flatMap"];
   console.log(arr4.map(x => x.split(" ")));
   console.log(arr4.flatMap(x => x.split(" ")));
+
+  //examples for map() method
+  var array1 = [1, 4, 9, 16];
+  const map1 = array1.map(x=>x>4);
+  console.log(map1);
+
+  var arr = Array(5);
+  console.log(arr);
+  arr[1]=5;
+  console.log(arr.map(x=>x+2));
+
 }

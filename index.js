@@ -12,6 +12,7 @@ import {arrayFilter} from './Arrays/arrayFilter.js'
 import {arrayFlat} from './Arrays/arrayFlat.js'
 import {arrayIncludes} from './Arrays/arrayIncludes.js'
 import {arrayJoin} from './Arrays/arrayJoin.js'
+import {arrayPushPop} from './Arrays/arrayPushPop.js'
 
 //console.log(test());
 //console.log(entries());
@@ -26,4 +27,5 @@ import {arrayJoin} from './Arrays/arrayJoin.js'
 //console.log(arrayFilter());
 //console.log(arrayFlat());
 //console.log(arrayIncludes());
-console.log(arrayJoin());
+//console.log(arrayJoin());
+console.log(arrayPushPop());
