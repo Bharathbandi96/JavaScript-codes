@@ -16,6 +16,7 @@ import {arrayPushPop} from './Arrays/arrayPushPop.js'
 import {arrayReduce} from './Arrays/arrayReduce.js'
 import {arrayReverse} from './Arrays/arrayReverse.js'
 import {arraySome} from './Arrays/arraySome.js'
+import {arraySplice} from './Arrays/arraySplice.js'
 
 //console.log(test());
 //console.log(entries());
@@ -34,4 +35,5 @@ import {arraySome} from './Arrays/arraySome.js'
 //console.log(arrayPushPop());
 //console.log(arrayReduce());
 //console.log(arrayReverse());
-console.log(arraySome());
+//console.log(arraySome());
+console.log(arraySplice());

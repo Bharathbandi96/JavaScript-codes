@@ -14,7 +14,7 @@ exports.arraySome = function f(){
 
     const arr1 = arr.slice(a,b);
     if(x == a){
-      console.log('the array element at position '+ arr[i] + ' has passed the test case : ' +arr1.some(test);
+      console.log('the array element at position '+ arr[i] + ' has passed the test case : ' +arr1.some(test));
       a++;
       b++;
       x++;
