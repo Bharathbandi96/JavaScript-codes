@@ -2,6 +2,7 @@
 exports.arrayReverse = function f(){
 
   const arr = [4,8,57,74];
+  console.log(arr);
   console.log(arr.indexOf(8));
 
 //Array.reverse() method changes the original array
@@ -12,6 +13,7 @@ exports.arrayReverse = function f(){
   var str = 'asaf'
 //enter a string to check if it is a palindrome
 
+  console.log('The string to check palindrome is : '+str);
   const a1 = str;
   const b = a1.split('');
   console.log(b);
