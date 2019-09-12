@@ -18,6 +18,7 @@ import {arrayReverse} from './Arrays/arrayReverse.js'
 import {arraySome} from './Arrays/arraySome.js'
 import {arraySplice} from './Arrays/arraySplice.js'
 import {ObjectExp} from './Examples/Object.js'
+import {deepMerge} from './Exmaples/deepMerge.js'
 
 //console.log(test());
 //console.log(entries());
@@ -38,4 +39,5 @@ import {ObjectExp} from './Examples/Object.js'
 //console.log(arrayReverse());
 //console.log(arraySome());
 //console.log(arraySplice());
-console.log(ObjectExp());
+//console.log(ObjectExp());
+console.log(deepMerge());
