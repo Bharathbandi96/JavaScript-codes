@@ -41,5 +41,5 @@ import {ABC} from './Functions/ABC.js'
 //console.log(arraySome());
 //console.log(arraySplice());
 //console.log(ObjectExp());
-//console.log(deepMerge());
-console.log(ABC());
+console.log(deepMerge());
+//console.log(ABC());
