@@ -9,7 +9,7 @@ exports.deepMerge = function (){
 	// Merge the object into the newObj object
 	var merge = function (obj) {
 		for (var prop in obj) {
-			if (obj.hasOwnProperty(prop)) {
+			if (typeof(obj)) {
 				// If property is an object, merge properties
 				if (Object.prototype.toString.call(obj[prop]) === '[object Object]') {
 					newObj[prop] = dm(newObj[prop], obj[prop]);
@@ -43,11 +43,12 @@ loc: {
 planet: 'Earth'
 }
 },
+a = [54,54,5]
 four = {
 loc: {
 example:'Sample'
 }
 }
 
-console.log(dm(first,second,third,four));
+console.log(dm(first,second,third,four,a));
 }
