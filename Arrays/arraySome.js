@@ -9,15 +9,14 @@ exports.arraySome = function f(){
 
   var a = 0;
   var b = 1;
-  var x = 0;
   for(var i=0;i<arr.length;i++){
 
     const arr1 = arr.slice(a,b);
-    if(x == a){
+    if(true){
       console.log('the array element at position '+ arr[i] + ' has passed the test case : ' +arr1.some(test));
       a++;
       b++;
-      x++;
     }
   }
+  console.log('The result of an whole array  : ' + arr.some(test));
 }
