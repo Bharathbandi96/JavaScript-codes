@@ -28,7 +28,35 @@ console.log('Student subject IDs are: '+stdIDS);
 
 var Totalmarks = student.reduce(function (total, std) {
   return total + std.marks;
-}, 0);
+});
 
 console.log('Total marks obtained by student: '+Totalmarks);
+
+
+//eleminate duplicates from an array
+function dup(acc,cv){
+
+  if(acc.indexOf(cv)===-1)
+    acc.push(cv);
+    return acc;
+}
+
+var str = 'helloworld'
+var a = str.split('').reduce(dup,[]);
+console.log(a);
+
+
+//to count repeated elements
+function ocu(acc, cv) { 
+  if (cv in acc) {
+    acc[cv]++;
+  }
+  else {
+    acc[cv] = 1;
+  }
+  return acc;
+}
+
+console.log(str.split('').reduce(ocu, {}));
+
 }
