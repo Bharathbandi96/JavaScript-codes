@@ -22,6 +22,7 @@ import {deepMerge} from './Examples/deepMerge.js'
 import {ABC} from './Functions/ABC.js'
 import {Exp} from './Examples/exp.js'
 import {MapReduce} from './Examples/MapReduce.js'
+import {s_lice} from './Examples/s_lice.js'
 
 //console.log(test());
 //console.log(entries());
@@ -46,4 +47,5 @@ import {MapReduce} from './Examples/MapReduce.js'
 //console.log(deepMerge());
 //console.log(ABC());
 //console.log(Exp());
-console.log(MapReduce());
+//console.log(MapReduce());
+console.log(s_lice());
