@@ -13,7 +13,7 @@ exports.s_lice = function(){
 
   var student = { sub_id: 120, name: 'abc', marks: 65, 
   contact:{phone: 8754215487,email:'abc@gmail.com'}};
-  var updateStu = [student,  '1-5-2019','bangalore'];
+  var updateStu = [student,  {DOB:'1-5-2019',Address:'bangalore'}];
 
   console.log(updateStu.slice(0,2));
 
