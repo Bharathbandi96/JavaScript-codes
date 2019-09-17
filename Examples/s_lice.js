@@ -24,6 +24,11 @@ exports.s_lice = function(){
   console.log(student.sub_id);
   console.log(updateStu[0].sub_id);
 
+  updateStu[0].name = 'xyz';
+
+  console.log(student.name);
+  console.log(updateStu[0].name);
+
 
 //splice method modifies the original array by adding,deleting and replacing the array elements
 
