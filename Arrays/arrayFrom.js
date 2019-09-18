@@ -32,5 +32,4 @@ console.log(range('a'.charCodeAt(),'z'.charCodeAt(),1));
 //to print small letters
 console.log(range('a'.charCodeAt(),'z'.charCodeAt(),1).map(x => String.fromCharCode(x)));
 
-
 }
