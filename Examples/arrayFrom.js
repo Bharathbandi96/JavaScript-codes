@@ -20,7 +20,7 @@ exports.ArrayFrom = function (){
   // console.log(Array.isArray(Array.from(arr2)));
   // console.log(Array.isArray(Array.from(arr2.keys())));
   // console.log(Array.isArray(Array.from(arr2.values())));
-  // console.log('\uD83D\uDE00')
-  // console.log('😀'.charCodeAt(0))
+  //console.log('\uD83D\uDE00')
+  //console.log('😀'.charCodeAt(0));
   //alert( "\u{1F60D}" );
 }
