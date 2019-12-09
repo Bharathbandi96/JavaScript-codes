@@ -45,9 +45,9 @@ import {ArrayFrom} from './Examples/arrayFrom'
 //console.log(arraySome());
 //console.log(arraySplice());
 //console.log(ObjectExp());
-//console.log(deepMerge());
+console.log(deepMerge());
 //console.log(ABC());
-console.log(Exp());
+// console.log(Exp());
 //console.log(MapReduce());
 //console.log(s_lice());
 //console.log(ArrayFrom());
